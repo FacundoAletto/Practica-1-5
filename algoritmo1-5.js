@@ -1,0 +1,36 @@
+document.querySelector("body").innerHTML = `
+<h1>Cómo preparar un buen mate</h1>
+    <img src="https://consultoracis.com.ar/wp-content/uploads/2021/11/20211129-Dia-del-Mate.jpg" alt="Cebar mate">
+    <ol>
+        <li>Buscar los elementos necesarios: pava, agua, mate, bombilla y yerba.</li>
+        <li>Colocar yerba en el mate hasta completar 75% de su capacidad.</li>
+        <li>Calentar agua en una pava</li>
+        <li>
+            <ul>
+                <li>Si T° del agua es = 75°C. Entonces
+                    <ul>
+                        <li>El agua está OK para preparar mate.</li>
+                    </ul>
+                </li>
+                <li>SiNo
+                    <ul>
+                        <li>Si T° del agua es < 75°C. Entonces <ul>
+                        <li>Calentar unos segundos más.</li>
+                    </ul>
+                </li>
+                <li>Si T° del agua es > 75°C. Entonces
+                    <ul>
+                        <li>Agregar un poco de agua fría.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        </ul>
+        </li>
+        <li>Agrego agua en el mate con yerba.</li>
+        <li>Introduzco la bombilla.</li>
+        <li>Cebo el primer mate.</li>
+        <li>Pruebo el mate.</li>
+        <li>Continuo cebando hasta finalizar el agua caliente.</li>
+    </ol>
+`;
